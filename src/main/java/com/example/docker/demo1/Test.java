@@ -10,7 +10,7 @@ public class Test {
 
 
     @RequestMapping("/index")
-public String hello(){
-    return "Hello Docker";
-}
+    public String hello() {
+        return "Hello Docker";
+    }
 }
